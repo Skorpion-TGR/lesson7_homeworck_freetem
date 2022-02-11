@@ -1,0 +1,134 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Shizuru:regular&display=swap);
+
+body {
+	font-family: "shizuru", sans-serif;
+	font-size: 56px;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+.content {
+	max-width: 1900px;
+	border: 5px dashed gold;
+	padding: 5% 0 15% 0;
+	background-color: black;
+	box-shadow:inset 0 0 50px 50px blue,0 0 15px 5px blue;
+}
+
+.header{
+	margin: 0 auto 100px;
+}
+
+.zhalo{
+	max-width: 30%;
+	min-width: 180px;
+	margin: 0 auto;
+	border: 5px double gold;
+	padding: 10% 0 10% 0;
+	background: radial-gradient(circle, rgba(252,238,70,1) 40%, rgba(63,94,251,1) 100%);
+	box-shadow: 0 0 50px 50px blue;
+}
+
+.zhalo-items{
+	min-height: 70%;
+	max-width: 95%;
+	border-radius: 50% 50% 50% 50% / 30% 30% 70% 70% ;
+	border: 2px solid rgba(8, 4, 255, 0.411);
+	padding: 150px 10px 0 10px;
+	margin: 0 auto;
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,238,70,1) 100%);
+	overflow: hidden;
+}
+
+.zhalo-item1{
+	min-width: 1%;
+	min-height: 75px;
+	max-width: 40%;
+	max-height: 150px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgba(156, 156, 156, 0.2);
+	border-radius: 40% 60% 20% 80% / 0% 100% 0% 100%;
+	margin: auto 0 0 0;
+	padding: 2px 0 0 25px;
+	box-shadow: -15px -15px 15px 10px rgba(0, 0, 0, 0.60),inset 5px 5px 10px 10px rgba(0, 0, 0, 0.30);
+	overflow: hidden;
+}
+
+.zhalo-item2{
+	min-width: 1%;
+	min-height: 75px;
+	max-width: 40%;
+	max-height: 150px;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgba(156, 156, 156, 0.2);
+	margin: -75px 0 10px auto;
+	border-radius: 60% 40% 80% 20% / 100% 0% 100% 0%;
+	padding: 2px 25px 0 0;
+	box-shadow: 15px -15px 15px 10px rgba(0, 0, 0, 0.60),inset -5px 5px 10px 10px rgba(0, 0, 0, 0.30);
+	overflow: hidden;
+}
+
+.zhalo-item3{
+	max-width: 10%;
+	min-height: 20px;
+	background-color: rgba(255, 0, 0, 0.6);
+	border: 2px solid black;
+	margin: 0 auto 10px;
+	border-radius: 50% 50% 50% 50% / 80% 80% 20% 20% ;
+	opacity: 0.5;
+}
+
+.zhalo-item4{
+	min-width: 5%;
+	max-width: 35%;
+	height: 50px;
+	background: linear-gradient(0deg, rgba(195,34,34,0.6) 0%, rgba(0,0,0,1) 100%);
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	margin: 0 auto 10px;
+	border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
+	overflow: hidden;
+}
+
+.lefteye {
+	max-width: 37%;
+	max-height: 37%;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,218,4,0.9) 100%);
+	border: 3px solid rgba(0, 65, 1, 0.6);
+	margin: 0 auto;
+}
+.righteye {
+	max-width: 37%;
+	border-radius: 50%;
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(0,218,4,0.9) 100%);
+	border: 3px solid rgba(0, 65, 1, 0.6);
+	margin: 0 auto;
+}
+
+.blick{
+	min-width: 50%;
+	max-width: 75%;
+	border-radius: 30% 70% 54% 46% / 30% 25% 75% 70% ;
+	box-shadow: 1px 1px 5px 1px rgba(255, 255, 255, 1), -15px -15px 5px 1px rgba(255, 255, 255, 1),-10px -15px 5px 1px rgba(255, 255, 255, 1);
+	margin: 46px 0 0 46px;
+}
+
+.lip{
+	min-width: 5%;
+	max-width: 100%;
+	height: 60%;
+	background: linear-gradient(180deg, rgba(195,34,34,0.6) 0%, rgba(0,0,0,1) 100%);
+	border: 2px solid rgba(0, 0, 0, 0.25);
+	margin: -1% auto;
+	border-radius: 50% 50% 50% 50% / 0% 0% 100% 100% ;
+}
+
+.text{
+	padding: 0 0 0 100px;
+	color: rgba(252,238,70,1);
+	text-shadow: 0px 10px 2px rgba(252,238,70,0.8),0px 20px 2px rgba(252,238,70,0.5), 0px 30px 1px rgba(252,238,70,0.3);
+}
